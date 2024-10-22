@@ -122,3 +122,20 @@ li {
 .toggle_btn span:nth-child(2) {
     bottom: 10px;
 }
+
+.open .toggle_btn span {
+    background: #fff;
+}
+
+.open .toggle_btn span:nth-child(1) {
+    transform: translateY(4px) rotate(-45deg);
+}
+
+.open .toggle_btn span:nth-child(2) {
+    transform: translateY(-4px) rotate(45deg);
+}
+
+#mask {
+    display: none;
+    transition: all 0.5s;
+}
