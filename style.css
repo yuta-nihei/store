@@ -201,3 +201,12 @@ li {
 #footer .copyright {
     font-size: 0.625rem;
 }
+
+/* SmartPhone */
+/* TOP Product */
+@media screen and (max-width: 900px) {
+    .product-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 20px;
+    }
+}
