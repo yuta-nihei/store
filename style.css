@@ -48,9 +48,10 @@ li {
     display: block;
 }
 
-.site-title {
+.page-title {
     font-size: 0.875rem;
     font-weight: normal;
+    margin-bottom: 30px;
 }
 
 /* Header */
@@ -177,6 +178,16 @@ li {
     display: block;
     margin-top: 40px;
     text-align: center;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.pagination li {
+    padding: 0 20px;
 }
 
 /* Footer */
