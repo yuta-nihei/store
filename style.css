@@ -200,6 +200,22 @@ li {
     margin-bottom: 30px;
 }
 
+/* Item */
+#item {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin-bottom: 60px;
+}
+
+#item .item-text {
+    width: 42%;
+}
+
+#item .item-img {
+    width: 50%;
+}
+
 /* Footer */
 #footer {
     display: flex;
