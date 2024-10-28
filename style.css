@@ -190,6 +190,16 @@ li {
     padding: 0 20px;
 }
 
+/* About */
+#about {
+    max-width: 600px;
+}
+
+#about p {
+    line-height: 1.9;
+    margin-bottom: 30px;
+}
+
 /* Footer */
 #footer {
     display: flex;
